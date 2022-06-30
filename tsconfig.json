@@ -26,6 +26,12 @@
       "@redux": [
         "src/redux"
       ],
+      "@apis/*": [
+        "src/apis/*"
+      ],
+      "@apis": [
+        "src/apis"
+      ],
       "@utils/*": [
         "src/utils/*"
       ],

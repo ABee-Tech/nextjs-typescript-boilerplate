@@ -1,4 +1,4 @@
-import { FETCH_TEST } from "@redux/actionTypes";
+import { FETCH_TEST } from '@redux/actionTypes';
 
 const reducer = (
   state: TestState = { tests: [] },

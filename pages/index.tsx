@@ -1,18 +1,26 @@
-import type { NextPage } from "next";
-import Head from "next/head";
-import tw from "twin.macro";
-import styled from "styled-components";
-import { useDispatch, useSelector } from "react-redux";
-import { useEffect } from "react";
-import { fetchTest } from "@redux/actions/test.action";
-import { Wrapper } from "@styles";
+import type { NextPage } from 'next';
+import Head from 'next/head';
+import tw from 'twin.macro';
+import styled from 'styled-components';
+import { useDispatch, useSelector } from 'react-redux';
+import { useEffect } from 'react';
+import { Wrapper } from '@styles';
+import { testApi } from '@apis';
+import { FETCH_TEST } from '@redux/actionTypes';
 
-const Home: NextPage = () => {
+interface Props {
+  todos: ITest[] | null;
+}
+
+const Home: NextPage<Props> = ({ todos }) => {
   const dispatch = useDispatch();
   const { tests } = useSelector((state: AllStates) => state.tests);
 
   useEffect(() => {
-    dispatch(fetchTest());
+    dispatch({
+      type: FETCH_TEST,
+      payload: todos,
+    });
   }, []);
   return (
     <>
@@ -71,5 +79,12 @@ const Home: NextPage = () => {
 const Container = styled.div`
   ${tw`text-gray-500 font-semibold`}
 `;
+
+export const getServerSideProps = async () => {
+  const todos = await testApi.fetchTests();
+  return {
+    props: { todos },
+  };
+};
 
 export default Home;

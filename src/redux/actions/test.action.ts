@@ -1,11 +1,9 @@
-import { FETCH_TEST } from "@redux/actionTypes";
-import axios from "@utils/axios";
+import { FETCH_TEST } from '@redux/actionTypes';
+import { testApi } from '@apis';
 
 export const fetchTest = () => async (dispatch: DispatchType) => {
   try {
-    let { data } = await axios.get("/posts");
-
-    data = data.slice(0, 2);
+    let data = await testApi.fetchTests();
 
     const action: TestAction = {
       type: FETCH_TEST,
