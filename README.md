@@ -1,14 +1,15 @@
 # Boilerplate for Next.js + TypeScript + Tailwind CSS + Styled Components + Redux + Axios
 
-The tools available for you out of the box with this boilerplate:
+I have implemented SSR(Server Side Rendering) on homepage for demo purpose. The tools available for you out of the box with this boilerplate:
 
-- Next.js (v12+)
-- TypeScript (v4.5)
-- Tailwind CSS (v2.2)
-- Styled-components (v5.3)
-- twin.macro (v2.8)
+- Next.js (v12.2.0)
+- React.js (v18.2.0)
+- TypeScript (v4.5.2)
+- Tailwind CSS (v2.2.19)
+- Styled-components (v5.3.3)
+- twin.macro (v2.8.2)
 - React Redux (v7.2.6)
-- Axios (v0.24)
+- Axios (v0.24.0)
 
 ## Requirements
 
