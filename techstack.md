@@ -3,20 +3,20 @@
 ## Tech Stack
 ABee-Tech/nextjs-typescript-boilerplate is built on the following main stack:
 
-- [Node.js](http://nodejs.org/) – Frameworks (Full Stack)
-- [React](https://reactjs.org/) – Javascript UI Libraries
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
 - [TypeScript](http://www.typescriptlang.org) – Languages
 - [Autoprefixer](https://github.com/postcss/autoprefixer) – CSS Pre-processors / Extensions
+- [Next.js](https://nextjs.org/) – Frameworks (Full Stack)
+- [Node.js](http://nodejs.org/) – Frameworks (Full Stack)
+- [PostCSS](https://github.com/postcss/postcss) – CSS Pre-processors / Extensions
+- [React](https://reactjs.org/) – Javascript UI Libraries
+- [Redux](https://redux.js.org/) – State Management Library
+- [Tailwind CSS](https://tailwindcss.com) – Front-End Frameworks
+- [redux-thunk](https://github.com/gaearon/redux-thunk) – State Management Library
+- [styled-components](https://styled-components.com) – JavaScript Framework Components
 - [Babel](http://babeljs.io/) – JavaScript Compilers
 - [ESLint](http://eslint.org/) – Code Review
-- [PostCSS](https://github.com/postcss/postcss) – CSS Pre-processors / Extensions
-- [Redux](https://redux.js.org/) – State Management Library
-- [redux-thunk](https://github.com/gaearon/redux-thunk) – State Management Library
 - [axios](https://github.com/mzabriskie/axios) – Javascript Utilities & Libraries
-- [Next.js](https://nextjs.org/) – Frameworks (Full Stack)
-- [styled-components](https://styled-components.com) – JavaScript Framework Components
-- [Tailwind CSS](https://tailwindcss.com) – Front-End Frameworks
 
 Full tech stack [here](/techstack.md)
 
@@ -26,20 +26,20 @@ Full tech stack [here](/techstack.md)
 ## Tech Stack
 ABee-Tech/nextjs-typescript-boilerplate is built on the following main stack:
 
-- <img width='25' height='25' src='https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png' alt='Node.js'/> [Node.js](http://nodejs.org/) – Frameworks (Full Stack)
-- <img width='25' height='25' src='https://img.stackshare.io/service/1020/OYIaJ1KK.png' alt='React'/> [React](https://reactjs.org/) – Javascript UI Libraries
 - <img width='25' height='25' src='https://img.stackshare.io/service/1209/javascript.jpeg' alt='JavaScript'/> [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
 - <img width='25' height='25' src='https://img.stackshare.io/service/1612/bynNY5dJ.jpg' alt='TypeScript'/> [TypeScript](http://www.typescriptlang.org) – Languages
 - <img width='25' height='25' src='https://img.stackshare.io/service/2202/72d087642cfce6fef6f2dabec5bf49e8_400x400.png' alt='Autoprefixer'/> [Autoprefixer](https://github.com/postcss/autoprefixer) – CSS Pre-processors / Extensions
+- <img width='25' height='25' src='https://img.stackshare.io/service/5936/nextjs.png' alt='Next.js'/> [Next.js](https://nextjs.org/) – Frameworks (Full Stack)
+- <img width='25' height='25' src='https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png' alt='Node.js'/> [Node.js](http://nodejs.org/) – Frameworks (Full Stack)
+- <img width='25' height='25' src='https://img.stackshare.io/service/3339/rlFcjEdI.png' alt='PostCSS'/> [PostCSS](https://github.com/postcss/postcss) – CSS Pre-processors / Extensions
+- <img width='25' height='25' src='https://img.stackshare.io/service/1020/OYIaJ1KK.png' alt='React'/> [React](https://reactjs.org/) – Javascript UI Libraries
+- <img width='25' height='25' src='https://img.stackshare.io/service/4074/13142323.png' alt='Redux'/> [Redux](https://redux.js.org/) – State Management Library
+- <img width='25' height='25' src='https://img.stackshare.io/service/8158/default_660b7c41c3ba489cb581eec89c04655404258c19.png' alt='Tailwind CSS'/> [Tailwind CSS](https://tailwindcss.com) – Front-End Frameworks
+- <img width='25' height='25' src='https://img.stackshare.io/service/5448/13142323.png' alt='redux-thunk'/> [redux-thunk](https://github.com/gaearon/redux-thunk) – State Management Library
+- <img width='25' height='25' src='https://img.stackshare.io/service/6749/styled-components.png' alt='styled-components'/> [styled-components](https://styled-components.com) – JavaScript Framework Components
 - <img width='25' height='25' src='https://img.stackshare.io/service/2739/-1wfGjNw.png' alt='Babel'/> [Babel](http://babeljs.io/) – JavaScript Compilers
 - <img width='25' height='25' src='https://img.stackshare.io/service/3337/Q4L7Jncy.jpg' alt='ESLint'/> [ESLint](http://eslint.org/) – Code Review
-- <img width='25' height='25' src='https://img.stackshare.io/service/3339/rlFcjEdI.png' alt='PostCSS'/> [PostCSS](https://github.com/postcss/postcss) – CSS Pre-processors / Extensions
-- <img width='25' height='25' src='https://img.stackshare.io/service/4074/13142323.png' alt='Redux'/> [Redux](https://redux.js.org/) – State Management Library
-- <img width='25' height='25' src='https://img.stackshare.io/service/5448/13142323.png' alt='redux-thunk'/> [redux-thunk](https://github.com/gaearon/redux-thunk) – State Management Library
 - <img width='25' height='25' src='https://img.stackshare.io/no-img-open-source.png' alt='axios'/> [axios](https://github.com/mzabriskie/axios) – Javascript Utilities & Libraries
-- <img width='25' height='25' src='https://img.stackshare.io/service/5936/nextjs.png' alt='Next.js'/> [Next.js](https://nextjs.org/) – Frameworks (Full Stack)
-- <img width='25' height='25' src='https://img.stackshare.io/service/6749/styled-components.png' alt='styled-components'/> [styled-components](https://styled-components.com) – JavaScript Framework Components
-- <img width='25' height='25' src='https://img.stackshare.io/service/8158/default_660b7c41c3ba489cb581eec89c04655404258c19.png' alt='Tailwind CSS'/> [Tailwind CSS](https://tailwindcss.com) – Front-End Frameworks
 
 Full tech stack [here](/techstack.md)
 
@@ -50,7 +50,7 @@ Full tech stack [here](/techstack.md)
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [ABee-Tech/nextjs-typescript-boilerplate](https://github.com/ABee-Tech/nextjs-typescript-boilerplate)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|31<br/>Tools used|01/05/24 <br/>Report generated|
+|31<br/>Tools used|02/29/24 <br/>Report generated|
 |------|------|
 </div>
 
